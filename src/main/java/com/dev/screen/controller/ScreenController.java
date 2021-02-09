@@ -18,7 +18,7 @@ import com.dev.screen.service.ScreenService;
 
 @RestController
 @RequestMapping(value = "/api")
-@CrossOrigin("*")
+//@CrossOrigin("*")
 public class ScreenController {
 
 	@Autowired
