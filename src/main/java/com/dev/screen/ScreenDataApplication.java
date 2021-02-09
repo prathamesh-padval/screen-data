@@ -19,7 +19,7 @@ public class ScreenDataApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 
-				registry.addMapping("/**").allowedOrigins("http://localhost:3000").allowedMethods("PUT", "POST",
+				registry.addMapping("/**").allowedOrigins("*").allowedMethods("PUT", "POST",
 						"OPTIONS", "GET", "DELETE", "HEAD").allowedHeaders("*");
 
 //			WebMvcConfigurer.super.addCorsMappings(registry);
